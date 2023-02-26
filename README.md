@@ -1,2 +1,2 @@
-<h1 allign="center">AirBnb Clone</h1>
+<h1 align="center">AirBnb Clone</h1>
 
