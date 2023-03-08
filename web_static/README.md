@@ -1,3 +1,0 @@
-Web_static
-
-Holberton
