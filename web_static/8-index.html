@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>AirBnB clone</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/8-places.css">
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+          crossorigin="anonymous">
+    <link rel="icon" href="images/icon.png">
+  </head>
+
+  <body>
+    <header></header>
+
+    <div class="container">
+      <section class="filters">
+        <div class="locations">
+          <h3>States</h3>
+          <h4>ie. New York/Virgina...</h4>
+          <div class="popover">
+            <h2>New York:</h2>
+            <ul>
+              <li>Buffalo</li>
+              <li>New York City</li>
+            </ul>
+            <h2>Virginia:</h2>
+            <ul>
+              <li>Charlottesville</li>
+              <li>Richmond</li>
+            </ul>
+          </div>
+
+        </div><div class="amenities">
+          <h3>Amenities</h3>
+          <h4>ie. Laundry/Internet...</h4>
+          <ul class="popover">
+            <li>Internet</li>
+            <li>TV</li>
+            <li>Kitchen</li>
+            <li>Iron</li>
+          </ul>
+        </div>
+        <button>Search</button>
+      </section>
+
+      <section class="places">
+        <h1>Places</h1>
+        <article>
+          <div class="name_and_price">
+            <h2>The Swamp</h2>
+            <div class="price_by_night">&#36;7</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+              <br>2 Guests
+            </div>
+            <div class="number_rooms">
+              <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+              <br>1 Room
+            </div>
+            <div class="number_bathrooms">
+              <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+              <br>The whole Garden
+            </div>
+          </div>
+          <div class="user">
+            <strong>Owner:</strong> Shrek
+          </div>
+          <div class="description">
+            Best place to stay! The whole swamp will be for you and the person you hate the most for a couple of nights.
+	    The best thing is that you have the chance to be eaten by our neighbours Dragon. 
+          </div>
+        </article>
+
+        <article>
+          <div class="name_and_price">
+            <h2>Mordor Tower</h2>
+            <div class="price_by_night">&#36;44</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+              <br>1 Guest
+            </div>
+            <div class="number_rooms">
+              <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+              <br>1 Room
+            </div>
+            <div class="number_bathrooms">
+              <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+              <br>12 Bathrooms
+            </div>
+          </div>
+          <div class="user"><strong>Owner:</strong> Sauron</div>
+          <div class="description">
+            Enjoy our volcanic food. We have a lot of lava showers. You're specially welcome
+	    if you are a Hobbit named Frodo. If by any chance you bring the Golden Ring that your uncle gave you
+	    you will get a free night and a special eagle wing meal. 
+          </div>
+        </article>
+
+        <article>
+          <div class="name_and_price">
+            <h2>Garden and Tree house</h2>
+            <div class="price_by_night">&#36;0</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+              <br>1 Guest
+            </div>
+            <div class="number_rooms">
+              <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+              <br>4 Rooms
+            </div>
+            <div class="number_bathrooms">
+              <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+              <br>1 Bathrooms
+            </div>
+          </div>
+          <div class="user">
+            <strong>Owner:</strong> Elf House
+          </div>
+          <div class="description">
+	    This house is made for the people who love vegetables. We hate non vegan people. So if you have any slight hodour of meat please
+	    look into other options. We are firm believers that Almods provide us with milk and you can live happy without harming any other living thing.
+	    Unless they are plants, or almonds.
+	  </div>
+        </article>
+
+        <article>
+          <div class="name_and_price">
+            <h2>Normal, Regular House</h2>
+            <div class="price_by_night">&#36;75</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+              <br>15 Guests
+            </div>
+            <div class="number_rooms">
+              <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+              <br>1 Rooms
+            </div>
+            <div class="number_bathrooms">
+              <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+              <br>3 Bathrooms
+            </div>
+          </div>
+          <div class="user">
+            <strong>Owner:</strong> Weasly</div>
+          <div class="description">
+            Standard, very-occupied, five-bed in one bedroom, three-bath house in a quiet
+            neighborhood. The best place to stay away of Death Eaters and some Dragons.
+          </div>
+        </article>
+
+      </section>
+    </div>
+
+    <footer>
+      Holberton School
+    </footer>
+  </body>
+</html>
