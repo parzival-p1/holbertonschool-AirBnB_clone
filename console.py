@@ -12,6 +12,7 @@ from models.amenity import Amenity
 from models.review import Review
 from models import storage
 
+
 def parse(line):
     ''' parses the line (string) from prompt  before execution'''
     argv = line.split(' ')
